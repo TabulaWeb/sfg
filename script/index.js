@@ -31,3 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Плавный скролл
+
+
+// Инициализируем анимации
+AOS.init();
