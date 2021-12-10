@@ -2,3 +2,18 @@
 @import './interface.css';
 @import './header.css';
 @import './footer.css';
+
+/* Home */
+@import './home/index.css';
+/* About */
+@import './about/index.css';
+/* Customers */
+@import './customers/index.css';
+/* Services */
+@import './services/index.css';
+/* Princeples */
+@import './principles/index.css';
+/* Pricing */
+@import './pricing/index.css';
+/* Contact */
+@import './contact/index.css';
