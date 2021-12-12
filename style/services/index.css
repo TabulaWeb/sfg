@@ -48,4 +48,5 @@
 
 .services-content__img img{
     margin-bottom: 10px;
+    position: absolute;
 }

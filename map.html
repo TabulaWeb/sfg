@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>SFG</title>
+</head>
+<body>
+     <!-- Шапка -->
+     <header class="header">
+        <!-- Логотип шапки -->
+        <div class="container">
+            <div class="header-logo">
+                <img src="./img/logo.svg" alt="logo">
+                <p>SFG</p>
+            </div>
+
+            <!-- Навигация шапки -->
+            <div class="header-nav">
+                <nav class="header-nav__content">
+                    <ul>
+                        <li>
+                            <a href="#about">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#services">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-nav__info">
+                    <img src="./img/home/call.svg" alt="call">
+                    <div>
+                        <a href="#">+ 7 905  194-33-33</a>
+                        <a href="#">Pochta.sfg@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="map">
+        <div class="map-controls active">
+            <div class="map-controls__navigation">
+                <div class="button-aside active">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="map-controls__content active">
+                <p class="breadcrumbs">
+                    <a href="#">ГЛАВНАЯ </a>/
+                </p>
+                
+                <h2>Как добраться</h2>
+
+                <div class="map-info">
+                    <p class="map-info__title">Москва, Гостиничный пр.,<br> д. 4Б, 3 этаж</p>
+
+                    <div class="map-info__contact">
+                        <div>
+                            <p>Телефон центрального офиса:</p>
+                            <p>+ 7 905  194-33-33</p>
+                        </div>
+                        <div>
+                            <p>Электронная почта:</p>
+                            <p>Pochta.sfg@mail.ru</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="setTransport">
+                    <div class="public-transport active" data-router="masstransit">
+                        <p>Общ. транспорт</p>
+                    </div>
+
+                    <div class="auto" data-router="auto">
+                        <p>Автомобиль</p>
+                    </div>
+                </div>
+
+                <input class="point-start" type="text" placeholder="Откуда вы поедете">
+
+                <input class="point-end" type="text" value="Гостиничный пр., д. 4Б">
+            </div>
+        </div>
+    </div>
+    
+    
+
+    
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=e1a66766-818f-4fa5-91eb-76386123faec&lang=ru_RU" type="text/javascript"></script>
+    <script src="./script/map.js"></script>
+</body>
+</html>
