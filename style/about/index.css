@@ -363,5 +363,20 @@
 
 
 @media screen and (max-width: 991px) {
-    
+    #listState {
+        display: none;
+    }
+
+    .about-content{
+        grid-template-columns: 1fr;
+    }
+
+    .about-content__left h2{
+        margin-bottom: 44px;
+    }
+
+    .about-content__images.active{
+        grid-template-columns: 1fr;
+        gap: 20px 0;
+    }
 }

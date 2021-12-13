@@ -67,3 +67,26 @@
 .customers-content__project a img{
     margin-left: 8px;
 }
+
+@media screen and (max-width: 991px) {
+    .customers-content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .customers-content__customer{
+        grid-row: 2;
+    }
+
+    .customers-content__project{
+        grid-row: 1;
+    }
+
+    .customers-content__project a{
+        width: auto;
+    }
+
+    .customers-content__customer{
+        margin-top: 50px;
+    }
+}
