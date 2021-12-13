@@ -60,10 +60,12 @@
 }
 
 .about-content__images{
-    display: flex;
+    display: grid;
     opacity: 0;
     position: absolute;
     z-index: -1;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 24px;
 }
 
 .about-content__images.active{
@@ -71,6 +73,8 @@
     position: inherit;
     z-index: 1;
     transition: 0.5s;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 24px;
 }
 
 .about-content__images img{
