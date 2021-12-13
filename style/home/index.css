@@ -143,3 +143,28 @@
     position: absolute;
     width: max-content;
 }
+
+@media screen and (max-width: 991px) {
+    .home-social {
+        display: none;
+    }
+
+    .home-content {
+        grid-template-columns: 1fr;
+    }
+
+    .home-content__button {
+        position: absolute;
+        bottom: 56px;
+        right: 2%;
+    }
+
+    .home-content__button {
+        flex-direction: row;
+    }
+
+    .home-content__button a:first-child{
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}

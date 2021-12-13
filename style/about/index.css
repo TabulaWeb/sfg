@@ -360,3 +360,8 @@
     z-index: 1!important;
     transition: 0.5s;
 }
+
+
+@media screen and (max-width: 991px) {
+    
+}
