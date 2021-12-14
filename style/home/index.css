@@ -206,4 +206,8 @@
         width: 52px;
         height: 52px;
     }
+
+    .home-content__text-stat div p:first-child{
+        font-size: 40px;
+    }
 }
