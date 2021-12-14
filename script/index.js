@@ -166,14 +166,13 @@ document.querySelector('.burger-menu').addEventListener('click', function(){
 
 // swiper 
 const swiper = new Swiper('.swiper', {
-    loop: true,
-  
+    slidesPerView: 'auto',
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     }
-  });
+});
 
 // Инициализируем анимации
 AOS.init();

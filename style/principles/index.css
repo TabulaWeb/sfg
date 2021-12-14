@@ -55,6 +55,46 @@
 
     .swiper-slide div{
         width: 85%;
+        background-color: rgba(250, 250, 250, 0.05);
+        border-radius: 5px;
+        padding: 44px 20px;
+        height: 344px;
+    }
+
+    .swiper-slide div img{
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    .swiper-buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 44px;
+        gap: 0 20px;
+    }
+
+    .swiper-buttons div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 2px solid #C6A57C;
+    }
+
+    .swiper-button-disabled {
+        border: 2px solid rgba(250, 250, 250, 0.3)!important;
+        fill-opacity="0.3"
+    }
+
+    .swiper-buttons div path{
+        fill: #C6A57C;
+    }
+
+    .swiper-button-disabled svg path{
+        fill: rgba(250, 250, 250, 0.3);
     }
 
     .swiper{
