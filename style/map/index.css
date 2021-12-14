@@ -216,8 +216,82 @@ body{
     width: 2.2px;
 }
 
+.map-controls__content h2 svg{
+    display: none;
+}
+
 @media screen and (max-width: 991px) {
     #map {
         margin-top: 77px;
+        height: calc(100vh - 77px);
+    }
+
+    .map-controls{
+        height: calc(100vh - 77px);
+    }
+
+    .map-controls__navigation{
+        display: none;
+    }
+
+    .map-controls__content.active{
+        padding: 44px 37px;
+        padding-bottom: 28px;
+    }
+
+    .map-controls {
+        max-width: inherit;
+    }
+
+    .map-controls.active {
+        height: auto;
+        width: 100%;
+    }
+
+    .map-controls__content h2{
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border-bottom: 0;
+    }
+
+    .map-controls__content.active {
+        width: 100%;
+        height: max-content;
+    }
+
+    .map-controls__content h2 svg{
+        display: block;
+    }
+
+    .map-controls__content {
+        opacity: 1;
+        width: 100%;
+        overflow: hidden;
+        padding: 44px 37px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .map-controls__content .breadcrumbs{
+        margin-bottom: 0;
+    }
+
+    .map-controls__content h2{
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
+
+    .map-controls__content {
+        height: 145px;
+    }
+
+    .map-info__title {
+        font-size: 18px;
+        margin-bottom: 12px;
     }
 }

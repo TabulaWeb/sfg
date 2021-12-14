@@ -115,3 +115,23 @@ document.querySelector('.auto').addEventListener('click', function(){
         document.querySelector('.auto').classList.add('active')
     }
 })
+
+// бургер меню
+document.querySelector('.burger-menu').addEventListener('click', function(){
+    if(document.querySelector('.modal-menu').classList.contains('active')){
+        document.querySelector('.modal-menu').classList.remove('active')
+        document.querySelector('.burger-menu').classList.remove('active')
+    } else {
+        document.querySelector('.modal-menu').classList.add('active')
+        document.querySelector('.burger-menu').classList.add('active')
+    }
+})
+
+// Mobile sidebar
+document.querySelector('.map-controls__content h2').addEventListener('click', function(){
+    if(document.querySelector('.map-controls__content').classList.contains('active')){
+        document.querySelector('.map-controls__content').classList.remove('active')
+    } else {
+        document.querySelector('.map-controls__content').classList.add('active')
+    }
+})
