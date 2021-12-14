@@ -382,6 +382,10 @@
 }
 
 @media screen and (max-width: 580px) {
+    .about {
+        padding-bottom: 80px;
+    }
+
     .about-content__left h2{
         font-size: 32px;
         margin-bottom: 44px;

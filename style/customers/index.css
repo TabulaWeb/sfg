@@ -94,3 +94,27 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+@media screen and (max-width: 580px) {
+    .customers {
+        padding-bottom: 80px;
+    }
+
+    .customers-content__project h2{
+        font-size: 28px;
+        margin-bottom: 44px;
+    }
+
+    .project-elements p{
+        margin-bottom: 20px;
+    }
+
+    .customers-content__project a {
+        font-size: 16px;
+    }
+
+    .customers-content__customer h2{
+        font-size: 28px;
+        margin-bottom: 44px;
+    }
+}

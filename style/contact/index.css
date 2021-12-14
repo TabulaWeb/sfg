@@ -168,3 +168,36 @@
         max-width: inherit;
     }
 }
+
+@media screen and (max-width: 580px) {
+    .contact-text{
+        padding: 44px 37px;
+    }
+
+    .contact-text h2{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .contact-text__info-block .img-block {
+        max-width: 44px;
+        height: 44px;
+        width: 100%;
+    }
+
+    .info-contactBlock p{
+        font-size: 14px;
+    }
+
+    .info-contactBlock p:first-child{
+        font-size: 14px;
+    }
+
+    .contact-form h2{
+        font-size: 28px;
+    }
+
+    .contact-form {
+        padding: 44px 37px;
+    }
+}

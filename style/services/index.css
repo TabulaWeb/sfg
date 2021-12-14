@@ -60,3 +60,27 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 580px) {
+    .services{
+        margin-top: 0;
+    }
+
+    .services {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .services-elements{
+        margin-top: 44px;
+        gap: 44px 0;
+    }
+
+    .services-content__text h2{
+        font-size: 32px;
+    }
+
+    .services-elements div p{
+        font-size: 16px;
+    }
+}
