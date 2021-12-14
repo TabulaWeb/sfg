@@ -55,9 +55,17 @@
     padding:0 20px;
 }
 
+.pricing-listener{
+    display: none;
+}
+
 @media screen and (max-width: 991px) {
     .pricing-table {
         display: none;
+    }
+
+    .pricing-listener{
+        display: block;
     }
 
     .pricing-listener__title{

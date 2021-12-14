@@ -23,11 +23,11 @@ let setValue = function(elem, value, inc, shift, speed){
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-    setValue(oneCount, 3105, true, 10 , 1)
+    setValue(oneCount, 48, true, 5 , 100)
 
-    setValue(twoCount, 15, true, 1 , 100)
+    setValue(twoCount, 215, true, 15 , 100)
 
-    setValue(threeCount, 10, true, 1 , 100)
+    setValue(threeCount, 7, true, 1 , 100)
 });
 
 // Контент секции about

@@ -139,3 +139,32 @@
     cursor: pointer;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 991px) {
+    .contact {
+        display: block;
+    } 
+
+    .contact .container {
+        position: initial;
+        padding: 0;
+    }
+
+    .map-contact{
+        height: 368px;
+        margin-bottom: -7px;
+    }
+
+    .contact-content{
+        flex-direction: column-reverse;
+
+    }
+
+    .contact-text{
+        max-width: inherit;
+    }
+
+    .contact-form{
+        max-width: inherit;
+    }
+}
