@@ -215,3 +215,9 @@ body{
     margin-left: 0px;
     width: 2.2px;
 }
+
+@media screen and (max-width: 991px) {
+    #map {
+        margin-top: 77px;
+    }
+}
