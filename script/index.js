@@ -174,5 +174,16 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
+
+// list
+document.querySelectorAll('.pricing-listener__sub').forEach((el, elArrayID, elArray) => {
+    el.addEventListener('click', function(e){
+        elArray.forEach(el => {
+            el.classList.remove('active')
+        })
+        elArray[elArrayID].classList.add('active')
+    })
+})
+
 // Инициализируем анимации
 AOS.init();
