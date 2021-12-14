@@ -32,7 +32,6 @@ function init(){
     function geocode(ctrl_id) {
         // Забираем запрос из поля ввода.
         var request = ctrl_id
-        console.log(request)
         // Геокодируем введённые данные.
         ymaps.geocode(request).then(function(res) {
             var obj = res.geoObjects.get(0)

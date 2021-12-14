@@ -50,3 +50,13 @@
     margin-bottom: 10px;
     position: absolute;
 }
+
+@media screen and (max-width: 991px) {
+    .services-content__img {
+        display: none;
+    }
+
+    .services-elements{
+        grid-template-columns: 1fr;
+    }
+}

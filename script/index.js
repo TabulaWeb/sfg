@@ -137,10 +137,8 @@ document.querySelector('.modal-license').addEventListener('click', function(e){
 })
 
 // Горизонтальное движение текста
-console.log(document.querySelector('.services-content__img img'))
 window.onscroll = () => {
     let pos = window.scrollY - 2219;
-    console.log(pos)
     document.querySelector('.services-content__img img').style.right = `${pos/9}px`
 }
 
@@ -165,6 +163,17 @@ document.querySelector('.burger-menu').addEventListener('click', function(){
         document.querySelector('.burger-menu').classList.add('active')
     }
 })
+
+// swiper 
+const swiper = new Swiper('.swiper', {
+    loop: true,
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
 
 // Инициализируем анимации
 AOS.init();
