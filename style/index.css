@@ -7,6 +7,7 @@
 @import './home/index.css';
 /* About */
 @import './about/index.css';
+@import './about/linebusines.css';
 /* Customers */
 @import './customers/index.css';
 /* Services */
