@@ -8,6 +8,8 @@
 /* About */
 @import './about/index.css';
 @import './about/linebusines.css';
+@import './about/license.css';
+@import './about/boss.css';
 /* Customers */
 @import './customers/index.css';
 /* Services */
