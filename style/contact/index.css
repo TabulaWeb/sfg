@@ -1,8 +1,14 @@
 .contact {
-    margin-bottom: 348px;
+    margin-bottom: 92px;
     position: relative;
     display: flex;
     justify-content: center;
+}
+
+section.contact-form {
+    padding: 0;
+    padding-bottom: 92px;
+    background-color: inherit;
 }
 
 .contact .container{
@@ -13,7 +19,6 @@
 
 .contact-content {
     display: flex;
-    max-width: 989px;
     width: 100%;
     justify-content: center;
     margin: 0 auto;
@@ -55,10 +60,9 @@
 }
 
 .contact-form {
-    background-color: #FAFAFA;
-    max-width: 515px;
     width: 100%;
     padding: 62px;
+    background-color: #FAFAFA;
 }
 
 .contact-form h2 {
@@ -72,7 +76,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 474px;
     width: 100%;
     padding: 62px;
     padding-bottom: 56px;
@@ -166,6 +169,10 @@
 
     .contact-form{
         max-width: inherit;
+    }
+
+    section.contact-form .container {
+        padding: 0;
     }
 }
 

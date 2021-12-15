@@ -178,10 +178,11 @@ const swiper = new Swiper('.swiper', {
 // list
 document.querySelectorAll('.pricing-listener__sub').forEach((el, elArrayID, elArray) => {
     el.addEventListener('click', function(e){
-        elArray.forEach(el => {
+        if(el.classList.contains('active')){
             el.classList.remove('active')
-        })
-        elArray[elArrayID].classList.add('active')
+        } else {
+            elArray[elArrayID].classList.add('active')
+        }
     })
 })
 
