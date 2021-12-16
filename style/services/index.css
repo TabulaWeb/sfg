@@ -16,7 +16,7 @@
     max-width: 552px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 62px 24px;
+    gap: 62px 62px;
     margin-top: 62px;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .services-content__img{
+    border-radius: 5px 0 0 0;
     position: absolute;
     right: 0;
     top: -116px;

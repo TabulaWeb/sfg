@@ -138,8 +138,15 @@ document.querySelector('.modal-license').addEventListener('click', function(e){
 
 // Горизонтальное движение текста
 window.onscroll = () => {
+    console.log(window.scrollY)
     let pos = window.scrollY - 2219;
     document.querySelector('.services-content__img img').style.right = `${pos/9}px`
+
+    if(window.scrollY >= 100){
+        document.querySelector('.header').style.background = "#272727"
+    } else {
+        document.querySelector('.header').style.background = "none"
+    }
 }
 
 // О компании выпадающий список
@@ -158,9 +165,11 @@ document.querySelector('.burger-menu').addEventListener('click', function(){
     if(document.querySelector('.modal-menu').classList.contains('active')){
         document.querySelector('.modal-menu').classList.remove('active')
         document.querySelector('.burger-menu').classList.remove('active')
+        document.querySelector('body').style.overflowY = 'auto'
     } else {
         document.querySelector('.modal-menu').classList.add('active')
         document.querySelector('.burger-menu').classList.add('active')
+        document.querySelector('body').style.overflowY = 'hidden'
     }
 })
 

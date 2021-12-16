@@ -3,9 +3,11 @@ document.querySelector('.burger-menu').addEventListener('click', function(){
     if(document.querySelector('.modal-menu').classList.contains('active')){
         document.querySelector('.modal-menu').classList.remove('active')
         document.querySelector('.burger-menu').classList.remove('active')
+        document.querySelector('body').style.overflowY = 'auto'
     } else {
         document.querySelector('.modal-menu').classList.add('active')
         document.querySelector('.burger-menu').classList.add('active')
+        document.querySelector('body').style.overflowY = 'hidden'
     }
 })
 
