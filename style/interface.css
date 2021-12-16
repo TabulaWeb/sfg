@@ -94,3 +94,9 @@ a {
 .map-contact{
     width: 100%;
 }
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding: 0 4%;
+    }
+}

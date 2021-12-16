@@ -79,6 +79,7 @@
 
 .about-content__images img{
     height: 280px;
+    object-fit: cover;
 }
 
 .about-content__images img:first-child{

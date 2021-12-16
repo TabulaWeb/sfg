@@ -142,7 +142,7 @@ window.onscroll = () => {
     let pos = window.scrollY - 2219;
     document.querySelector('.services-content__img img').style.right = `${pos/9}px`
 
-    if(window.scrollY >= 100){
+    if(window.scrollY >= 1){
         document.querySelector('.header').style.background = "#272727"
     } else {
         document.querySelector('.header').style.background = "none"
