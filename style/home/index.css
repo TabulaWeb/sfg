@@ -4,6 +4,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .home .container {
@@ -11,6 +12,12 @@
     width: 100%;
     display: flex;
     align-items: center;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.about-content__images img {
+    border-radius: 5px;
 }
 
 .home-content{
@@ -144,6 +151,12 @@
     width: max-content;
 }
 
+@media (max-height: 700px) {
+    .home-content {
+        padding-top: 160px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .home-social {
         display: none;
@@ -166,6 +179,11 @@
     .home-content__button a:first-child{
         margin-bottom: 0;
         margin-right: 20px;
+    }
+
+    .background-img {
+        object-position: left;
+        object-fit: cover;
     }
 }
 
