@@ -15,6 +15,13 @@
 .customers-content__project h2{
     font-size: 32px;
     margin-bottom: 44px;
+    font-family: 'Manrope-Medium';
+    font-weight: 100;
+}
+
+.customers-content__customer h2{
+    font-family: 'Manrope-Medium';
+    font-weight: 100;
 }
 
 .customers-elements {
