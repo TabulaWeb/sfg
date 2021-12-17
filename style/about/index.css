@@ -110,6 +110,7 @@
     color: #C6A57C;
     position: relative;
     padding-left: 15px;
+    font-family: 'circle-bold';
 }
 
 .about-content__left ul li.active::after{
