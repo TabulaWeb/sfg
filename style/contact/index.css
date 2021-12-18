@@ -67,6 +67,29 @@ section.contact-form {
     border-radius: 5px 0 0 5px;
 }
 
+.contact-form__checked input {
+    display: none;
+}
+
+.contact-form__checked span {
+    font-family: 'circle';
+    color: #272727;
+    font-size: 16px;
+}
+
+.contact-form__checked label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 12px;
+}
+
+.custom-ckecbox{
+    width: 28px;
+    height: 28px;
+    background: url('../../img/Checkbox.svg');
+}
+
 .contact-form h2 {
     font-size: 32px;
     color: #000000;
@@ -154,12 +177,12 @@ section.contact-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 406px;
-    height: 84px;
+    max-width: 345px;
+    height: 65px;
     width: 100%;
     background: #C6A57C;
     color: #FAFAFA;
-    font-size: 32px;
+    font-size: 18px;
     border-radius: 5px;
     bottom: 92px;
 }

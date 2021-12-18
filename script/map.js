@@ -24,6 +24,9 @@ function init(){
     });
     suggestView.events.add("select", function(e){
         geocode(e.get('item').value)  
+        if(document.querySelector('.map-controls__content').classList.contains('active')){
+            document.querySelector('.map-controls__content').classList.remove('active')
+        }
     })
     // searchMap.addEventListener('click', function(){
     //     geocode('.point-start')

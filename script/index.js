@@ -195,5 +195,14 @@ document.querySelectorAll('.pricing-listener__sub').forEach((el, elArrayID, elAr
     })
 })
 
+document.querySelector('#inputLine input').addEventListener('click', function(){
+    if(document.querySelector('#inputLine input').checked) {
+        console.log(123123)
+        document.querySelector('#inputLine .custom-ckecbox').style.background = 'url("./img/Checkbox-active.svg")'
+    } else {
+        document.querySelector('#inputLine .custom-ckecbox').style.background = 'url("./img/Checkbox.svg")'
+    }
+})
+
 // Инициализируем анимации
 AOS.init();

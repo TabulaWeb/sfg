@@ -1,6 +1,6 @@
 .home {
     height: calc(100vh + 55px);
-    background: url('../../img/home/background.png'), linear-gradient(360deg, #272727 1.04%, rgba(39, 39, 39, 0) 100%);
+    background-image: url('../../img/home/background.png'), linear-gradient(#272727 1.04%, rgba(39, 39, 39, 0) 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
