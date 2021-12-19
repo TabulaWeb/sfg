@@ -195,6 +195,7 @@ document.querySelectorAll('.pricing-listener__sub').forEach((el, elArrayID, elAr
     })
 })
 
+// checkbox
 document.querySelector('#inputLine input').addEventListener('click', function(){
     if(document.querySelector('#inputLine input').checked) {
         console.log(123123)

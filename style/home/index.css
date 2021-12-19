@@ -30,10 +30,14 @@
     font-size: 56px;
     color: #FAFAFA;
     margin-bottom: 80px;
+    margin-top: 45px;
+    line-height: 90px;
+    font-family: 'Manrope-Medium';
 }
 
 .home-content__text h1 span{
     font-size: 90px;
+    font-family: 'Manrope-ExtraBold'
 }
 
 .home-content__text-stat{
@@ -67,7 +71,7 @@
 
 .home-social{
     position: absolute;
-    bottom: 70px;
+    bottom: 17%;
     display: flex;
     height: 30px;
     flex-direction: column;
@@ -151,6 +155,10 @@
     width: max-content;
 }
 
+.home-content__button.mobile{
+    display: none;
+}
+
 @media (max-height: 700px) {
     .home-content {
         padding-top: 160px;
@@ -162,13 +170,21 @@
         display: none;
     }
 
+    .home-content__button{
+        display: none;
+    }
+
+    .home-content__button.mobile{
+        display: flex;
+    }
+
     .home-content {
         grid-template-columns: 1fr;
     }
 
     .home-content__button {
         position: absolute;
-        bottom: 56px;
+        bottom: 85px;
         right: 2%;
     }
 
@@ -191,6 +207,12 @@
     .home-content__text h1 {
         font-size: 32px;
         margin-bottom: 44px;
+        line-height: 46px;
+        margin-top: 125px;
+    }
+
+    .home {
+        height: clac(100vh + 85px);
     }
 
     .home-content__text h1 span{
@@ -227,5 +249,9 @@
 
     .home-content__text-stat div p:first-child{
         font-size: 40px;
+    }
+
+    .home .container {
+        height: auto;
     }
 }

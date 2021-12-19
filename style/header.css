@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 52px;
 }
 
 .header-nav {
@@ -20,7 +21,7 @@
 }
 
 .header-nav__content{
-    margin-right: 92px;
+    margin-right: 90px;
 }
 
 .header-nav__content ul{
@@ -64,7 +65,7 @@
 }
 
 .header-nav__info div a{
-    font-size: 16px;
+    font-size: 15px;
     color: #FAFAFA;
     transition: 0.2s;
 }
@@ -142,7 +143,7 @@
     .header-nav__info img{
         width: 44px;
         height: 44px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     .burger-menu span{
