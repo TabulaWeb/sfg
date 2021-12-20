@@ -99,4 +99,12 @@ a {
     .container {
         padding: 0 4%;
     }
+
+    jdiv{
+        display: none!important;
+    }
+
+    .jivo-iframe-container {
+        display: none!important;
+    }
 }
