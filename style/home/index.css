@@ -1,6 +1,6 @@
 .home {
     height: calc(100vh + 55px);
-    background-image: url('../../img/home/background.png'), linear-gradient(#272727 1.04%, rgba(39, 39, 39, 0) 100%);
+    background-image: url('../../img/home/background.png'), linear-gradient(blue, pink);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,12 +136,12 @@
 }
 
 .home-content__button a:first-child:hover{
-    width: 222px;
+    width: 195px;
     transition: 0.5s;
 }
 
 .home-content__button a:hover{
-    width: 201px;
+    width: 208px;
     transition: 0.5s;
 }
 

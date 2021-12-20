@@ -21,3 +21,12 @@ document.querySelector('.modal-menu__button').addEventListener('click', function
         document.querySelector('.modal-menu__button img').style.transform = 'rotate(360deg)'
     }
 })
+
+// Горизонтальное движение текста
+window.onscroll = () => {
+    if(window.scrollY >= 1){
+        document.querySelector('.header').style.background = "#272727"
+    } else {
+        document.querySelector('.header').style.background = "none"
+    }
+}

@@ -85,8 +85,8 @@ section.contact-form {
 }
 
 .custom-ckecbox{
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     background: url('../../img/Checkbox.svg');
 }
 
@@ -210,6 +210,10 @@ section.contact-form {
     .contact .container {
         position: initial;
         padding: 0;
+    }
+
+    .contact-text{
+        width: 100%;
     }
 
     .map-contact{
